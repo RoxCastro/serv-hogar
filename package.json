@@ -1,0 +1,19 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "pruebas Jest ",
+  "main": "01.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "jest",
+    "testing"
+  ],
+  "author": "Rosario Castro",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}

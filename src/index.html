@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- SITE TITLE -->
+    <title>Servicios-hogar</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- WEB FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700' rel='stylesheet' type='text/css'>
+   
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon.css" />
+   <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!-- JQUERY -->
+    <script src="js/jquery.min.js"></script>
+
+    <style>
+        #section0{
+            background-image: url(images/bg2.png);
+            background-size: cover;
+        }
+        #section1{
+            background-image: url(images/bg3.jpg);
+            background-size: cover;
+        }
+   
+        #section5{
+            background-image: url(images/bg4.jpg);
+            background-size: cover;
+        }
+        #section7{
+            background-image: url(images/bg4.jpg);
+            background-size: cover;
+        }
+        #fullpage .wrap{
+            z-index: 10;
+        }
+    </style>
+
+</head>
+
+<body> 
+
+
+    <!-- MAIN NAV -->
+    <a id="main-nav" href="#sidr"><span class="flaticon-menu9"></span></a>
+    <div id="sidr" class="sidr">
+        
+        <!-- MAIN NAV LOGO -->
+        <a href="#" id="menu-logo"><img src="images/menu-logo.png" alt=""></a>
+
+    
+    <!-- PAGE LOGO -->
+    <div class="wrap">
+        <div id="logo">
+            <a href="index.html"><img src="images/logo.jpg" alt=""> </a>
+        </div>
+
+        <div id="avisos-p">
+            <a href="#FormaParte">¡Forma parte del equipo!</a> | <a href="aviso-privacidad.html">Aviso de Privacidad</a> | <a href="terminos-condiciones.html">Términos y Condiciones</a>
+        </div>
+    </div>
+    <!-- END PAGE LOGO -->
+
+    <!-- LANDING PAGE CONTENT -->
+    <div id="fullpage">
+        
+        <!-- RIGHT HAND & PHONE MOCK-UP IMAGES -->
+        <div class="wrap">
+           <div class="section-image"> 
+            <!-- Home IMAGE --><img src="images/home.png" alt="Home">
+            <!-- Equipo IMAGE --><img src="images/equipo.png" alt="Equipo">
+            <!-- PRecios IMAGE --><img src="images/precio.png" alt="Precios">
+            <!-- Contact IMAGE --><img src="images/contacto.png" alt="Contacto">
+            </div>
+            <div id="hand"></div>
+        </div>
+        <!-- END RIGHT HAND & PHONE MOCK-UP -->
+        
+
+        <!-- SECTION INICIO -->
+        <div class="section " id="section0">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION HOME CONTENT -->
+                    <h1>¿Necesitas ayuda?</h1>
+                    <p>Nosotros te conectamos con un profesional para que te ayude a solucionar esos problemas que se te presenten en el hogar</p> 
+                    <p>Si necesitas un cerrajero, un plomero, electricista, no dudes en contactarnos.</p>
+                </div>
+                    <!-- END SECTION HOME CONTENT -->
+            </div>
+        </div>
+        <!-- END SECTION Inicio -->
+
+        <!-- SECTION Servicios -->
+        <div class="section " id="section1">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION FEATURES CONTENT -->
+                    <h2>Servicios Disponibles</h2>
+                    <p></p>
+                    <div class="tabs tabs-style-linemove">
+                        <!-- TABS LINKS -->
+                        <nav>
+                            <ul>
+                                <li><a href="#section-linemove-1"><span class="icon flaticon-house3"></span><span> Cerrajero</span></a>
+                                </li>
+                                <li><a href="#section-linemove-2"><span class="icon flaticon-cone1"></span><span> Electricista</span></a>
+                                </li>
+                                <li><a href="#section-linemove-3"><span class="icon flaticon-fivepointed"></span><span> Plomero</span></a>
+                                </li>
+                                <li><a href="#section-linemove-4"><span class="icon flaticon-question3"></span><span> Jardinero</span></a>
+                                </li>
+                                <li><a href="#section-linemove-4"><span class="icon flaticon-question3"></span><span> Servicio de limpieza</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- END TABS LINKS -->
+
+                        <!-- TABS CONTENT -->
+                        <div class="content-wrap">
+                           
+                            <!-- TAB 1 -->
+                            <section id="section-linemove-1">
+                                <h4><span class="icon flaticon-lightbulb"></span> ¡Nuestro servicio es 100% Seguro!</h4>
+                                <p>Nuestros asociados han pasado distintas pruebas de confianza y seguridad para visitarte en tu domicilio.</p>
+                            </section>
+                            </section>
+                          </div>
+                         <!-- END TABS CONTENT -->                            
+
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION Servicios -->
+    
+
+        <!-- SECTION Proveedores -->
+        <div class="section" id="section5">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION Forma parte -->
+                    <h2><strong>Forma parte</strong> del equipo</h2>
+                    
+                    <p>Únete a la red de proveedores de servicios con más trascendencia en el país. Si eres fontanero, cerrajero, jardinero, electricista... o prestas cualquier servicio para el hogar, ¡contáctanos!</p>
+                    <p class="hide">Lleva tu negocio a la era de servicios digital. Ten más trabajo y multiplica tus ganancias</p>
+
+                    <form role="form" method="post" id="equipo-form">
+                        <input type="text" placeholder="Nombre" name="Name" id="Name" required>
+                        <input type="email" placeholder="Email" name="Email" id="Email" required>
+                        <textarea placeholder="Mensaje" name="Message" id="Message" required></textarea>
+                        <button type="submit" id="submit-equipo">Enviar</button>
+                        <div id="success"></div>
+                    </form>
+
+                    <!-- END Forma parte -->
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION Proveedores -->
+
+
+        <!-- SECTION Precios -->
+        <div class="section" id="section6">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION PRICING CONTENT -->
+                    <h2><strong>Precios</strong> del servicio</h2>
+                    
+                     <!-- PRICING TABLE 1 -->
+                    <div class="price-table normal">
+                        <h3 class="package">Fontanería</h3>
+                        <div class="price"> <span class="dollar">$</span> <span class="amount">250</span> </div>
+                        <ul class="specifications">
+                            <li><span class="icon flaticon-circle10"></span>1 hora de servicio</li>
+                            <li><span class="icon flaticon-circle10"></span>Directo a tu domicilio</li>
+                            <li><span class="icon flaticon-circle10"></span>Garantizado</li>
+                        </ul> 
+                        <br/>
+                    </div>
+
+                    <!-- PRICING TABLE 2 -->
+                    <div class="price-table normal">
+                        <h3 class="package">Electricidad</h3>
+                        <div class="price"> <span class="dollar">$</span> <span class="amount">250</span> </div>
+                        <ul class="specifications">
+                            <li><span class="icon flaticon-circle10"></span>1 hora de servicio</li>
+                            <li><span class="icon flaticon-circle10"></span>Directo a tu domicilio</li>
+                            <li><span class="icon flaticon-circle10"></span>Garantizado</li>
+                        </ul>
+                        <br/>
+                    </div>
+
+                    <!-- PRICING TABLE 3 -->
+                    <div class="price-table normal">
+                        <h3 class="package">Jardinería</h3>
+                        <div class="price"> <span class="dollar">$</span> <span class="amount">200</span> </div>
+                        <ul class="specifications">
+                            <li><span class="icon flaticon-circle10"></span>1 hora de servicio</li>
+                            <li><span class="icon flaticon-circle10"></span>Vamos directo a tu domicilio</li>
+                            <li><span class="icon flaticon-circle10"></span>Garantizado</li>
+                        </ul>
+                        <br/>
+                    </div>
+                    <!-- END SECTION PRICING -->
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION Precios -->
+
+
+        <!-- SECTION CONTACT -->
+        <div class="section" id="section7">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION CONTACT CONTENT-->
+                    <h2>Envíanos un <strong>mensaje</strong></h2>
+
+                    <!-- SECTION CONTACT FORM-->
+                   <form role="form" method="post" id="contact-form">
+                        <input type="text" placeholder="Nombre" name="Name" id="Name" required>
+                        <input type="email" placeholder="Email" name="Email" id="Email" required>
+                        <input type="text" placeholder="Teléfono" name="Phone" id="Phone">
+                        <input type="text" placeholder="Asunto" name="Subject" id="Subject">
+                        <textarea placeholder="Mensaje" name="Message" id="Message" required></textarea>
+                        <button type="submit" id="submit">Enviar</button>
+                        <div id="success"></div>
+                    </form>
+                <!-- END SECTION CONTACT -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION CONTACT -->
+
+
+    <!-- SOCIAL ICONS -->
+    <div class="wrap">
+        <div id="social-icons">
+            <ul>
+                <li><a href="http://facebook.com/" target="_blank"><i class="flaticon-facebook6"></i></a> </li>
+                 <li><a href="http://www.instagram.com/appyuda" target="_blank"><i class="flaticon-social77"></i></a> </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- END SOCIAL ICONS -->
+
+</body>
+
+</html>
